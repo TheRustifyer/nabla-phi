@@ -9,7 +9,7 @@ import ResourcesPage from './pages/ResourcesPage';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/nabla-phi">
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<HomePage />} />
